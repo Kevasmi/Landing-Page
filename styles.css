@@ -16,7 +16,7 @@ li {
     color: #E5E7EB;
 }
 
-button {
+.hero-button {
     background-color: #3882F6;
     color: #F9FAF8;
     height: 35px;
@@ -159,4 +159,47 @@ img,
     text-align: right;
     font-weight: 700;
     font-size: 28px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.cta-box {
+    display: flex;
+    height: 130px;
+    align-items: center;
+    padding: 0px 53px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    gap: 170px;
+}
+
+.cta-text-box {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+}
+
+.cta-header {
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.cta-text {
+    color: white;
+}
+
+.cta-button {
+    height: 42px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    font-weight: 700;
+    border-color: white;
+    color: white;
 }
