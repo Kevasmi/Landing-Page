@@ -16,14 +16,6 @@ li {
     color: #E5E7EB;
 }
 
-.hero-button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    height: 35px;
-    width: 100px;
-    border-radius: 6px;
-}
-
 img {
     width: 600px;
     flex: 0 1 auto;
@@ -32,7 +24,7 @@ img {
 .header {
     display: flex;
     padding: 16px 120px;
-    background: #1F2937 ;
+    background: #1F2937;
 }
 
 .logo-text {
@@ -83,6 +75,14 @@ img,
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 35px;
+    width: 100px;
+    border-radius: 6px;
 }
 
 .information {
@@ -202,4 +202,16 @@ img,
     font-weight: 700;
     border-color: white;
     color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    color: #F9FAF8;
 }
