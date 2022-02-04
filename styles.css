@@ -131,3 +131,32 @@ img,
     text-align: center;
     color: rgb(85, 94, 104);
 }
+
+.quote {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 230px;
+    width: 850px;
+    gap: 10px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 14px;
+}
+
+.quote-speaker {
+    text-align: right;
+    font-weight: 700;
+    font-size: 28px;
+}
