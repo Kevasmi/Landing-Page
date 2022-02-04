@@ -1,6 +1,7 @@
 * {
     font-family: roboto, sans-serif;
-    background: #1F2937 ;
+    padding: 0;
+    margin: 0;
     /* border: 1px solid black; */
 }
 
@@ -24,14 +25,14 @@ button {
 }
 
 img {
-    width: 475px;
-    height: 250px;
+    width: 600px;
     flex: 0 1 auto;
 }
 
 .header {
     display: flex;
-    padding: 16px;
+    padding: 16px 120px;
+    background: #1F2937 ;
 }
 
 .logo-text {
@@ -50,20 +51,26 @@ img {
 }
 
 .hero {
-
+    background: #1F2937 ;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    margin: 16px;
-    gap: 0px 10px;
+    padding: 100px;
+    gap: 150px;
+}
+
+img,
+.hero-flex {
+    height: 340px; 
 }
 
 .hero-flex {
     display: flex;
     flex-flow: column nowrap;
-    /* align-items: center; */
-    flex: 1 1 0;
+    flex: 0 1 auto;
     padding: 16px;
+    gap: 10px;
+    width: 400px;
 }
 
 .hero-main {
@@ -72,3 +79,11 @@ img {
     font-weight: 900;
 }
 
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.information {
+    text-align: center;
+}
